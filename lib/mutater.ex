@@ -1,5 +1,5 @@
 defmodule Mutater do
-  def increment_by_1(number) when is_number(number) do
-    number + 1
+  def increment_by_1(n) when is_number(n) do
+    n + 1
   end
 end

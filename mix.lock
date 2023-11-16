@@ -1,0 +1,3 @@
+%{
+  "mutix": {:git, "https://github.com/tuomohopia/mutix.git", "6832047de256046a36c95f54aa3730b17dd5f60a", [branch: "tuomohopia/minor-fixes"]},
+}
