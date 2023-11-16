@@ -1,18 +1,5 @@
 defmodule Mutater do
-  @moduledoc """
-  Documentation for `Mutater`.
-  """
-
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> Mutater.hello()
-      :world
-
-  """
-  def hello do
-    :world
+  def increment_by_1(number) when is_number(number) do
+    number + 1
   end
 end

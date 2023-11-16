@@ -1,8 +1,7 @@
 defmodule MutaterTest do
   use ExUnit.Case
-  doctest Mutater
 
-  test "greets the world" do
-    assert Mutater.hello() == :world
+  describe "increment_by_1/1" do
+    assert Mutater.increment_by_1(1) == 2
   end
 end
