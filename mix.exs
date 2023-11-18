@@ -22,7 +22,7 @@ defmodule Mutater.MixProject do
 
   defp deps do
     [
-      {:mutix, git: "https://github.com/tuomohopia/mutix.git", tag: "v0.1.0", only: [:dev, :test]}
+      {:mutix, git: "https://github.com/tuomohopia/mutix.git", tag: "v0.1.1", only: [:dev, :test]}
     ]
   end
 end
