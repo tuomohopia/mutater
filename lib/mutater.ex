@@ -2,7 +2,7 @@ defmodule Mutater do
   @moduledoc """
   Source module for mutation testing.
 
-  `increment/1` is covered by a test suite while
+  `increment/1` & `double` are covered by a test suite while
   `increment_all_by_1/1` is not.
   """
 
